@@ -1,7 +1,6 @@
 /* All styles for your header Components live here */
 .container {
-    display:flex;
-    
+    display: flex;
 }
 
 .header-title {

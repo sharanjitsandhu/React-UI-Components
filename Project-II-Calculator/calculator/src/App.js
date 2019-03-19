@@ -7,8 +7,8 @@ import ActionButton from "./components/ButtonComponents/ActionButton";
 const App = () => {
   return (
     <div className="app">
-      <div>
-        <CalculatorDisplay />
+      <CalculatorDisplay />
+      <div className="buttonss">
         <NumberButton />
         <ActionButton />
       </div>

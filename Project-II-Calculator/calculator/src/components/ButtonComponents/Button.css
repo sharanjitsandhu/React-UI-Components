@@ -1,7 +1,7 @@
 .number-button {
   text-align: center;
   font-size: 2rem;
-  max-width: 300px;
+  max-width: 450px;
   width: 100%;
   cursor: pointer;
 }
@@ -9,8 +9,10 @@
   border: 1px solid gray;
   height: 100px;
   width: 100px;
-  justify-content: center;
   font-weight: bold;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .number {
@@ -18,13 +20,34 @@
 }
 .zero {
   border: 1px solid gray;
-  height: 80px;
+  height: 100px;
   font-weight: bold;
+  cursor: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .clear {
   border: 1px solid gray;
-  height: 80px;
+  height: 100px;
   font-weight: 300;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .action-buttons {
+  color: white;
+  cursor: pointer;
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+  border: 1px solid gray;
+  background-color: #a0001e;
+  text-align: center;
+  font-size: 1.7rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }

@@ -1,1 +1,22 @@
 /* All styles for your Card Components live here */
+.banner {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-right: 10px;
+  border: 1.2px solid lightgray;
+  border-radius: 1%;
+}
+
+.image-banner {
+  width: 100%;
+}
+
+.card-content {
+  padding: 2px 30px 20px 10px;
+}
+
+.card-content a {
+  color: gray;
+  text-decoration: none;
+}

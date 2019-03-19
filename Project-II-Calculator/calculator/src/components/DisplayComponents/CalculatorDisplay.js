@@ -1,13 +1,2 @@
-import React from 'react';
-import './Display.css';
-
-const Display = () => {
-    return ( 
-        <div className='display'>
-            <h1>0</h1>
-        </div>
-     );
-}
- 
-export default Display;
-
+import React from "react";
+import "./Display.css";

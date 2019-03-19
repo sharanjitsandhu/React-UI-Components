@@ -1,0 +1,30 @@
+.number-button {
+  text-align: center;
+  font-size: 2rem;
+  max-width: 300px;
+  width: 100%;
+  cursor: pointer;
+}
+.numbers {
+  border: 1px solid gray;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.number {
+  display: flex;
+}
+.zero {
+  border: 1px solid gray;
+  height: 80px;
+  font-weight: bold;
+}
+.clear {
+  border: 1px solid gray;
+  height: 80px;
+  font-weight: 300;
+}
+.action-buttons {
+}

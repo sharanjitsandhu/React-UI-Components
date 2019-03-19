@@ -1,9 +1,16 @@
 .footer {
-  margin-left: 70px;
-  font-size: 28px;
   display: flex;
-  justify-content: space-between;
   margin-right: 500px;
   padding-top: 20px;
   padding-bottom: 10px;
+}
+
+.icons {
+  justify-content: space-between;
+  margin-left: 70px;
+  font-size: 28px;
+  cursor: pointer;
+}
+.on-click {
+  color: #a0001e;
 }

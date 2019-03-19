@@ -4,6 +4,7 @@ import HeaderContent from "./HeaderContent";
 import moment from "moment";
 
 const currentDate = moment().format("dddd, MMMM D, YYYY");
+
 const HeaderTitle = () => {
   return (
     <div className="title">

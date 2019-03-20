@@ -1,80 +1,53 @@
-.threefourth {
-  width: 75%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.clear {
+.number-button {
+  text-align: center;
+  font-size: 2rem;
+  max-width: 450px;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  border-right: 1px solid gray;
-  border-bottom: 1px solid gray;
+  cursor: pointer;
 }
-
 .numbers {
-  width: 33%;
+  border: 1px solid gray;
+  height: 100px;
+  width: 100px;
+  font-weight: bold;
+  align-items: center;
   display: flex;
   justify-content: center;
-  border-right: 1px solid gray;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
 }
 
+.number {
+  display: flex;
+}
 .zero {
-  width: 100%;
+  border: 1px solid gray;
+  height: 100px;
+  font-weight: bold;
+  cursor: none;
+  align-items: center;
   display: flex;
   justify-content: center;
-  border-right: 1px solid gray;
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+}
+.clear {
+  border: 1px solid gray;
+  height: 100px;
+  font-weight: 300;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.action-buttons {
+  color: white;
+  cursor: pointer;
 }
 
-.action {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.button {
+  height: 100px;
+  width: 100px;
+  border: 1px solid gray;
   background-color: #a0001e;
-}
-
-.divide {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
+  text-align: center;
+  font-size: 1.7rem;
+  align-items: center;
   display: flex;
   justify-content: center;
-  height: 90px;
-}
-
-.multiply {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  display: flex;
-  justify-content: center;
-  height: 20%;
-  font-size: 1.2rem;
-}
-
-.subtract {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  display: flex;
-  justify-content: center;
-  height: 20%;
-}
-
-.add {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  display: flex;
-  justify-content: center;
-  height: 20%;
-}
-
-.equals {
-  border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
-  display: flex;
-  justify-content: center;
-  height: 20%;
 }

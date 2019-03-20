@@ -1,44 +1,30 @@
 import React from "react";
 import "./Button.css";
 
-const NumberButton = () => {
+function NumberButton() {
   return (
-    <div className="threefourth">
-      <div className="clear">
-        <h2>clear</h2>
-      </div>
-      <div className="numbers">
-        <h1>7</h1>
-      </div>
-      <div className="numbers">
-        <h1>8</h1>
-      </div>
-      <div className="numbers">
-        <h1>9</h1>
-      </div>
-      <div className="numbers">
-        <h1>4</h1>
-      </div>
-      <div className="numbers">
-        <h1>5</h1>
-      </div>
-      <div className="numbers">
-        <h1>6</h1>
-      </div>
-      <div className="numbers">
-        <h1>1</h1>
-      </div>
-      <div className="numbers">
-        <h1>2</h1>
-      </div>
-      <div className="numbers">
-        <h1>3</h1>
-      </div>
-      <div className="zero">
-        <h1>0</h1>
+    <div>
+      <div className="number-button">
+        <div className="clear">clear</div>
+        <div className="number">
+          <div className="numbers">7</div>
+          <div className="numbers">8</div>
+          <div className="numbers">9</div>
+        </div>
+        <div className="number">
+          <div className="numbers">4</div>
+          <div className="numbers">5</div>
+          <div className="numbers">6</div>
+        </div>
+        <div className="number">
+          <div className="numbers">1</div>
+          <div className="numbers">2</div>
+          <div className="numbers">3</div>
+        </div>
+        <div className="zero">0</div>
       </div>
     </div>
   );
-};
+}
 
 export default NumberButton;

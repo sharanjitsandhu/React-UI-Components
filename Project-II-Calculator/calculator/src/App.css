@@ -1,16 +1,9 @@
-body {
-  font-size:62.5%;
+.app {
+  margin: 100px;
+  width: 100%;
+  max-width: 400px;
+  justify-items: center;
 }
-
-.container {
-  margin:0 auto;
-  width:100%;
-  max-width:400px;
-  border:1px solid black;
-  font-size:1.2rem;
-  
-}
-
-.right-container {
-  display:flex;
+.buttonss {
+  display: flex;
 }

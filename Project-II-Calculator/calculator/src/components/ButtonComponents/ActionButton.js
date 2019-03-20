@@ -1,26 +1,26 @@
 import React from "react";
 import "./Button.css";
 
-const ActionButton = () => {
+function ActionButton() {
   return (
-    <div className="action">
-      <div className="divide">
-        <h1>/</h1>
+    <div className="action-buttons">
+      <div>
+        <i class="fa fa-divide button" />
       </div>
-      <div className="multiply">
-        <h1>X</h1>
+      <div>
+        <i class="fa fa-times button" />
       </div>
-      <div className="subtract">
-        <h1>-</h1>
+      <div>
+        <i class="fa fa-minus button" />
       </div>
-      <div className="add">
-        <h1>+</h1>
+      <div>
+        <i class="fa fa-plus button" />
       </div>
-      <div className="equals">
-        <h1>=</h1>
+      <div>
+        <i class="fa fa-equals button" />
       </div>
     </div>
   );
-};
+}
 
 export default ActionButton;
